@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(45, 61, 61);
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 300;
+  color: rgb(136, 220, 220);
+  text-align: center;
+  background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+h1 {
+  color: rgb(219, 230, 215);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: large;
+  line-height: 0%;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(15, 15, 66);
+  font-size: x-large;
+}
+ a {
+  color: aquamarine;
+  text-decoration: wavy;
+ }
+
+ a:hover {
+  text-decoration: double;
+  color: brown;
+ }
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.card{
+  background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 40px;
+  width: 600px;
+  margin: 50px auto;
+  border-radius: 5px;
+  text-align: center;
+  background-color: rgb(93, 110, 110);
+  box-shadow: 2px 2px 3px rgb(132, 209, 118);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-primary {
+  background-color: #6be17f;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+#list-icon li{
+list-style: none;
+display: inline;
+}
+
+#list-icon i{
+  font-size: 50px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .card {
+    width: 300px;
+  }
+}
